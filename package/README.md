@@ -2,9 +2,8 @@
 
 **Angular date picker**
 
-[![Build Status](https://travis-ci.org/kekeh/mydatepicker.svg?branch=master)](https://travis-ci.org/kekeh/mydatepicker)
-[![codecov](https://codecov.io/gh/kekeh/mydatepicker/branch/master/graph/badge.svg)](https://codecov.io/gh/kekeh/mydatepicker)
-[![npm](https://img.shields.io/npm/v/mydatepicker.svg?maxAge=2592000?style=flat-square)](https://www.npmjs.com/package/mydatepicker)
+[![Build Status](https://travis-ci.org/poltorak/mydatepicker.svg?branch=master)](https://travis-ci.org/poltorak/mydatepicker)
+[![npm](https://img.shields.io/npm/v/mydatepicker-poltorak.svg?maxAge=2592000?style=flat-square)](https://www.npmjs.com/package/mydatepicker-poltorak)
 
 ## Description
 Highly configurable Angular date picker. Compatible with __Angular2__ and __Angular4__ versions.
