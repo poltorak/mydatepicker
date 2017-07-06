@@ -330,7 +330,7 @@ describe('MyDatePicker', () => {
         fixture.detectChanges();
         let monthlabel = getElement('.monthlabel');
         expect(monthlabel).not.toBe(null);
-        expect(monthlabel.nativeElement.textContent.trim()).toBe('Jan');
+        expect(monthlabel.nativeElement.textContent.trim()).toBe('Jan' + ' 2016');
 
         fixture.detectChanges();
         let yearlabel = getElement('.yearlabel');
@@ -375,7 +375,7 @@ describe('MyDatePicker', () => {
         fixture.detectChanges();
         let monthlabel = getElement('.monthlabel');
         expect(monthlabel).not.toBe(null);
-        expect(monthlabel.nativeElement.textContent.trim()).toBe('Dec');
+        expect(monthlabel.nativeElement.textContent.trim()).toBe('Dec' + ' 2016');
 
         fixture.detectChanges();
         let yearlabel = getElement('.yearlabel');
@@ -829,7 +829,7 @@ describe('MyDatePicker', () => {
         fixture.detectChanges();
         let montlabel = getElement('.headermonthtxt .headerlabelbtn');
         expect(montlabel).not.toBe(null);
-        expect(montlabel.nativeElement.textContent).toBe('May');
+        expect(montlabel.nativeElement.textContent).toBe('May' + ' 2016');
 
         fixture.detectChanges();
         let prevmonth = getElement(PREVMONTH);
@@ -839,7 +839,7 @@ describe('MyDatePicker', () => {
         fixture.detectChanges();
         montlabel = getElement('.headermonthtxt .headerlabelbtn');
         expect(montlabel).not.toBe(null);
-        expect(montlabel.nativeElement.textContent).toBe('Apr');
+        expect(montlabel.nativeElement.textContent).toBe('Apr' + ' 2016');
 
         fixture.detectChanges();
         let headerbtndisabled = getElements('.headerbtndisabled');
@@ -851,7 +851,7 @@ describe('MyDatePicker', () => {
         fixture.detectChanges();
         montlabel = getElement('.headermonthtxt .headerlabelbtn');
         expect(montlabel).not.toBe(null);
-        expect(montlabel.nativeElement.textContent).toBe('Apr');
+        expect(montlabel.nativeElement.textContent).toBe('Apr' + ' 2016');
 
         fixture.detectChanges();
         let prevyear = getElement(PREVYEAR);
@@ -880,7 +880,7 @@ describe('MyDatePicker', () => {
         fixture.detectChanges();
         montlabel = getElement('.headermonthtxt .headerlabelbtn');
         expect(montlabel).not.toBe(null);
-        expect(montlabel.nativeElement.textContent).toBe('May');
+        expect(montlabel.nativeElement.textContent).toBe('May' + ' 2016');
 
         fixture.detectChanges();
         let nextmonth = getElement(NEXTMONTH);
@@ -890,7 +890,7 @@ describe('MyDatePicker', () => {
         fixture.detectChanges();
         montlabel = getElement('.headermonthtxt .headerlabelbtn');
         expect(montlabel).not.toBe(null);
-        expect(montlabel.nativeElement.textContent).toBe('Jun');
+        expect(montlabel.nativeElement.textContent).toBe('Jun' + ' 2016');
 
         fixture.detectChanges();
         headerbtndisabled = getElements('.headerbtndisabled');
@@ -902,7 +902,7 @@ describe('MyDatePicker', () => {
         fixture.detectChanges();
         montlabel = getElement('.headermonthtxt .headerlabelbtn');
         expect(montlabel).not.toBe(null);
-        expect(montlabel.nativeElement.textContent).toBe('Jun');
+        expect(montlabel.nativeElement.textContent).toBe('Jun' + ' 2016');
 
         fixture.detectChanges();
         let nextyear = getElement(NEXTYEAR);
@@ -2324,62 +2324,62 @@ describe('MyDatePicker', () => {
 
         fixture.detectChanges();
         let monthLabel = getElement('.headermonthtxt .headerlabelbtn');
-        expect(monthLabel.nativeElement.textContent).toBe('Jan');
+        expect(monthLabel.nativeElement.textContent).toBe('Jan' + ' 2016');
 
         nextmonth.nativeElement.click();
         fixture.detectChanges();
         monthLabel = getElement('.headermonthtxt .headerlabelbtn');
-        expect(monthLabel.nativeElement.textContent).toBe('Fév');
+        expect(monthLabel.nativeElement.textContent).toBe('Fév' + ' 2016');
 
         nextmonth.nativeElement.click();
         fixture.detectChanges();
         monthLabel = getElement('.headermonthtxt .headerlabelbtn');
-        expect(monthLabel.nativeElement.textContent).toBe('Mar');
+        expect(monthLabel.nativeElement.textContent).toBe('Mar' + ' 2016');
 
         nextmonth.nativeElement.click();
         fixture.detectChanges();
         monthLabel = getElement('.headermonthtxt .headerlabelbtn');
-        expect(monthLabel.nativeElement.textContent).toBe('Avr');
+        expect(monthLabel.nativeElement.textContent).toBe('Avr' + ' 2016');
 
         nextmonth.nativeElement.click();
         fixture.detectChanges();
         monthLabel = getElement('.headermonthtxt .headerlabelbtn');
-        expect(monthLabel.nativeElement.textContent).toBe('Mai');
+        expect(monthLabel.nativeElement.textContent).toBe('Mai' + ' 2016');
 
         nextmonth.nativeElement.click();
         fixture.detectChanges();
         monthLabel = getElement('.headermonthtxt .headerlabelbtn');
-        expect(monthLabel.nativeElement.textContent).toBe('Juin');
+        expect(monthLabel.nativeElement.textContent).toBe('Juin' + ' 2016');
 
         nextmonth.nativeElement.click();
         fixture.detectChanges();
         monthLabel = getElement('.headermonthtxt .headerlabelbtn');
-        expect(monthLabel.nativeElement.textContent).toBe('Juil');
+        expect(monthLabel.nativeElement.textContent).toBe('Juil' + ' 2016');
 
         nextmonth.nativeElement.click();
         fixture.detectChanges();
         monthLabel = getElement('.headermonthtxt .headerlabelbtn');
-        expect(monthLabel.nativeElement.textContent).toBe('Aoû');
+        expect(monthLabel.nativeElement.textContent).toBe('Aoû' + ' 2016');
 
         nextmonth.nativeElement.click();
         fixture.detectChanges();
         monthLabel = getElement('.headermonthtxt .headerlabelbtn');
-        expect(monthLabel.nativeElement.textContent).toBe('Sep');
+        expect(monthLabel.nativeElement.textContent).toBe('Sep' + ' 2016');
 
         nextmonth.nativeElement.click();
         fixture.detectChanges();
         monthLabel = getElement('.headermonthtxt .headerlabelbtn');
-        expect(monthLabel.nativeElement.textContent).toBe('Oct');
+        expect(monthLabel.nativeElement.textContent).toBe('Oct' + ' 2016');
 
         nextmonth.nativeElement.click();
         fixture.detectChanges();
         monthLabel = getElement('.headermonthtxt .headerlabelbtn');
-        expect(monthLabel.nativeElement.textContent).toBe('Nov');
+        expect(monthLabel.nativeElement.textContent).toBe('Nov' + ' 2016');
 
         nextmonth.nativeElement.click();
         fixture.detectChanges();
         monthLabel = getElement('.headermonthtxt .headerlabelbtn');
-        expect(monthLabel.nativeElement.textContent).toBe('Déc');
+        expect(monthLabel.nativeElement.textContent).toBe('Déc' + ' 2016');
 
         fixture.detectChanges();
         let headertodaybtn = getElement('.headertodaybtn span:last-child');
@@ -2428,7 +2428,7 @@ describe('MyDatePicker', () => {
         fixture.detectChanges();
         let monthLabel = getElement('.headermonthtxt .headerlabelbtn');
         expect(monthLabel).not.toBe(null);
-        expect(monthLabel.nativeElement.textContent).toBe('Oct');
+        expect(monthLabel.nativeElement.textContent).toBe('Oct' + ' 2017');
 
         fixture.detectChanges();
         let yearLabel = getElement('.headeryeartxt .headerlabelbtn');
@@ -2460,7 +2460,7 @@ describe('MyDatePicker', () => {
         fixture.detectChanges();
         let monthLabel = getElement('.headermonthtxt .headerlabelbtn');
         expect(monthLabel).not.toBe(null);
-        expect(monthLabel.nativeElement.textContent).toBe('Oct');
+        expect(monthLabel.nativeElement.textContent).toBe('Oct' + ' 2017');
 
         fixture.detectChanges();
         let yearLabel = getElement('.headeryeartxt .headerlabelbtn');
@@ -2478,7 +2478,7 @@ describe('MyDatePicker', () => {
         fixture.detectChanges();
         let monthLabel = getElement('.headermonthtxt .headerlabelbtn');
         expect(monthLabel).not.toBe(null);
-        expect(monthLabel.nativeElement.textContent).toBe('Aug');
+        expect(monthLabel.nativeElement.textContent).toBe('Aug' + ' 2019');
 
         fixture.detectChanges();
         let yearLabel = getElement('.headeryeartxt .headerlabelbtn');
@@ -2575,62 +2575,62 @@ describe('MyDatePicker', () => {
 
         fixture.detectChanges();
         let monthLabel = getElement('.headermonthtxt .headerlabelbtn');
-        expect(monthLabel.nativeElement.textContent).toBe('Jan');
+        expect(monthLabel.nativeElement.textContent).toBe('Jan' + ' 2016');
 
         nextmonth.nativeElement.click();
         fixture.detectChanges();
         monthLabel = getElement('.headermonthtxt .headerlabelbtn');
-        expect(monthLabel.nativeElement.textContent).toBe('Feb');
+        expect(monthLabel.nativeElement.textContent).toBe('Feb' + ' 2016');
 
         nextmonth.nativeElement.click();
         fixture.detectChanges();
         monthLabel = getElement('.headermonthtxt .headerlabelbtn');
-        expect(monthLabel.nativeElement.textContent).toBe('Mar');
+        expect(monthLabel.nativeElement.textContent).toBe('Mar' + ' 2016');
 
         nextmonth.nativeElement.click();
         fixture.detectChanges();
         monthLabel = getElement('.headermonthtxt .headerlabelbtn');
-        expect(monthLabel.nativeElement.textContent).toBe('Apr');
+        expect(monthLabel.nativeElement.textContent).toBe('Apr' + ' 2016');
 
         nextmonth.nativeElement.click();
         fixture.detectChanges();
         monthLabel = getElement('.headermonthtxt .headerlabelbtn');
-        expect(monthLabel.nativeElement.textContent).toBe('Mei');
+        expect(monthLabel.nativeElement.textContent).toBe('Mei' + ' 2016');
 
         nextmonth.nativeElement.click();
         fixture.detectChanges();
         monthLabel = getElement('.headermonthtxt .headerlabelbtn');
-        expect(monthLabel.nativeElement.textContent).toBe('Jun');
+        expect(monthLabel.nativeElement.textContent).toBe('Jun' + ' 2016');
 
         nextmonth.nativeElement.click();
         fixture.detectChanges();
         monthLabel = getElement('.headermonthtxt .headerlabelbtn');
-        expect(monthLabel.nativeElement.textContent).toBe('Jul');
+        expect(monthLabel.nativeElement.textContent).toBe('Jul' + ' 2016');
 
         nextmonth.nativeElement.click();
         fixture.detectChanges();
         monthLabel = getElement('.headermonthtxt .headerlabelbtn');
-        expect(monthLabel.nativeElement.textContent).toBe('Ags');
+        expect(monthLabel.nativeElement.textContent).toBe('Ags' + ' 2016');
 
         nextmonth.nativeElement.click();
         fixture.detectChanges();
         monthLabel = getElement('.headermonthtxt .headerlabelbtn');
-        expect(monthLabel.nativeElement.textContent).toBe('Sep');
+        expect(monthLabel.nativeElement.textContent).toBe('Sep' + ' 2016');
 
         nextmonth.nativeElement.click();
         fixture.detectChanges();
         monthLabel = getElement('.headermonthtxt .headerlabelbtn');
-        expect(monthLabel.nativeElement.textContent).toBe('Okt');
+        expect(monthLabel.nativeElement.textContent).toBe('Okt' + ' 2016');
 
         nextmonth.nativeElement.click();
         fixture.detectChanges();
         monthLabel = getElement('.headermonthtxt .headerlabelbtn');
-        expect(monthLabel.nativeElement.textContent).toBe('Nov');
+        expect(monthLabel.nativeElement.textContent).toBe('Nov' + ' 2016');
 
         nextmonth.nativeElement.click();
         fixture.detectChanges();
         monthLabel = getElement('.headermonthtxt .headerlabelbtn');
-        expect(monthLabel.nativeElement.textContent).toBe('Des');
+        expect(monthLabel.nativeElement.textContent).toBe('Des' + ' 2016');
 
         fixture.detectChanges();
         let headertodaybtn = getElement('.headertodaybtn span:last-child');

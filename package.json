@@ -1,7 +1,7 @@
 {
   "name": "mydatepicker-poltorak",
   "version": "2.0.22",
-  "description": "Angular date picker",
+  "description": "Angular date picker forked from https://github.com/kekeh/mydatepicker.git",
   "keywords": [
     "Angular2",
     "Angular4",
@@ -11,7 +11,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kekeh/mydatepicker.git"
+    "url": "https://github.com/poltorak/mydatepicker"
   },
   "scripts": {
     "start": "webpack-dev-server --config config/webpack.dev.js --progress",

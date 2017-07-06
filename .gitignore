@@ -5,3 +5,5 @@ typings/
 build-sampleapp/
 test-output/
 .tmpbuild/
+.DS_Store
+npmdist/
