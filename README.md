@@ -25,7 +25,7 @@ To install this component to an external project, follow the procedure:
     import { NgModule } from '@angular/core';
     import { BrowserModule } from '@angular/platform-browser';
     import { MyTestApp } from './my-test-app';
-    import { MyDatePickerModule } from 'mydatepicker';
+    import { MyDatePickerModule } from 'mydatepicker-poltorak';
 
     @NgModule({
         imports:      [ BrowserModule, MyDatePickerModule ],
@@ -45,7 +45,7 @@ To install this component to an external project, follow the procedure:
             map: {
                 // Other components are here...
 
-                'mydatepicker': 'npm:mydatepicker/bundles/mydatepicker.umd.min.js'
+                'mydatepicker': 'npm:mydatepicker-poltorak/bundles/mydatepicker.umd.min.js'
             },
             packages: {
             }
